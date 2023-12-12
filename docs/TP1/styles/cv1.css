@@ -5,7 +5,7 @@ html {
 body {
     margin-right: 5%;
     margin-left: 5%;
-    background-color: blanchedalmond;
+    background-color: gainsboro;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -46,12 +46,14 @@ footer ul {
     justify-content: space-between;
 }
 
-.sections article h2 {
+.sections article time+h2 {
     padding: 0px;
     margin-top: 0px;
     margin-bottom: 0px;
     margin-right: 30px;
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: lighter;
+    color: slategrey
 }
 
 .sections article time {
@@ -60,7 +62,12 @@ footer ul {
     font-size: 20px;
     text-align: right;
     margin-right: 40px;
+    color: dimgray;
 
+}
+
+.sections article p {
+    color: gray;
 }
 
 .sections {
@@ -74,11 +81,13 @@ footer ul {
     text-align: right;
     margin-right: 40px;
     padding: 0px;
+    color: dimgray;
 }
 
 .section2 p {
     margin-top: 0;
-    font-size: 15px;
+    font-size: 18px;
+    color: dimgray;
 }
 
 
@@ -86,6 +95,47 @@ footer ul {
     margin-left: 16%;
     font-size: 30px;
     font-weight: bold
+}
+
+#projet {
+    margin-left: 15%;
+    color: dimgray;
+    font-size: 18px;
+}
+
+.header h1 {
+    font-size: xx-large;
+}
+
+.header h2 {
+    font-size: 15px;
+    padding-bottom: 6px;
+
+}
+
+.header img {
+    width: 100px;
+    height: 90px;
+    float: right;
+    margin-left: 0px;
+
+
+}
+
+.header div {
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    width: auto;
+}
+
+.header ul {
+    border-top: 1px solid white;
+    margin-top: 0px;
+    padding-top: 10px;
+    width: auto;
+    padding-left: 0px;
+    margin-left: 0px;
 }
 
 ul {
